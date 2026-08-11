@@ -1,0 +1,5 @@
+# Root domain shows the current retreat page, no URL change (rewrite, not redirect)
+/    /remembrance/index.html   200
+
+# When a future retreat page exists, the homepage should be replaced with a
+# real hub page and this rewrite removed. Links to /remembrance/ never break.
