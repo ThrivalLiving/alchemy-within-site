@@ -5,3 +5,11 @@
   from = "/"
   to = "/remembrance/index.html"
   status = 200
+
+[[edge_functions]]
+  path = "/"
+  function = "event-deposit"
+
+[[edge_functions]]
+  path = "/remembrance/*"
+  function = "event-deposit"
